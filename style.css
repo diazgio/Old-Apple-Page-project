@@ -7,6 +7,70 @@
 
 .main-container {
     display: grid;
-    grid-template-columns: repeat(4,25%);
-    grid-template-rows: 75% 25%;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 538px 200px;
+    width: 1440px;
+    height: 728px;
+}
+
+.main-navigation {
+    background: url("./images/main-background.jpg") 50% 100% no-repeat;
+    height: 538px;
+    border: 1px solid gold;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 100%;
+}
+
+.modules-container-1 {
+    height: 200px;
+    width: 100%;
+    background: url("./images/promo_iphone5s.jpg") 50% 100% no-repeat;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.modules-container-2 {
+    height: 200px;
+    width: 100%;
+    background: url("./images/promo_iphone5c.jpg") 50% 100% no-repeat;
+    border: 1px solid darkblue;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.modules-container-3 {
+    height: 200px;
+    width: 100%;
+    background: url("./images/promo_30_years.jpg") 50% 100% no-repeat;
+    border: 1px solid darkgreen;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.modules-container-4 {
+    height: 200px;
+    width: 100%;
+    background: url("./images/promo_supplier_responsibility.jpg") 50% 100% no-repeat;
+    border: 1px solid lightslategray;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer-nav li {
+    display: inline;
 }
