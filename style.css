@@ -8,14 +8,14 @@
 .main-container {
     display: grid;
     grid-template-columns: repeat(4, 25%);
-    grid-template-rows: 538px 200px;
+    grid-template-rows: 73% 27%;
     width: 1440px;
-    height: 728px;
+    height: 828px;
 }
 
 .main-navigation {
     background: url("./images/main-background.jpg") 50% 100% no-repeat;
-    height: 538px;
+    height: 100%;
     border: 1px solid gold;
     grid-column-start: 1;
     grid-column-end: 5;
@@ -25,7 +25,7 @@
 }
 
 .modules-container-1 {
-    height: 200px;
+    height: 100%;
     width: 100%;
     background: url("./images/promo_iphone5s.jpg") 50% 100% no-repeat;
     grid-column-start: 1;
@@ -35,7 +35,7 @@
 }
 
 .modules-container-2 {
-    height: 200px;
+    height: 100%;
     width: 100%;
     background: url("./images/promo_iphone5c.jpg") 50% 100% no-repeat;
     border: 1px solid darkblue;
@@ -46,7 +46,7 @@
 }
 
 .modules-container-3 {
-    height: 200px;
+    height: 100%;
     width: 100%;
     background: url("./images/promo_30_years.jpg") 50% 100% no-repeat;
     border: 1px solid darkgreen;
@@ -57,7 +57,7 @@
 }
 
 .modules-container-4 {
-    height: 200px;
+    height: 100%;
     width: 100%;
     background: url("./images/promo_supplier_responsibility.jpg") 50% 100% no-repeat;
     border: 1px solid lightslategray;
@@ -69,6 +69,7 @@
 
 .footer {
     display: flex;
+    height: 20vh;
 }
 
 .footer-nav li {
