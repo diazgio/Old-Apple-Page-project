@@ -1,265 +1,274 @@
-/*-------------------------------General Styles----------------------------*/
-*{
-    margin: 0 auto;
-    -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+/* -------------------------------General Styles---------------------------- */
+* {
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .main-container {
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
-    grid-template-rows: 73% 27%;
-    width: 100%;
-    min-width: 1360px;
-    min-height: 858px;
-    gap: 2px;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 73% 27%;
+  width: 100%;
+  max-width: 1360px;
+  min-height: 858px;
+  gap: 2px;
 }
 
-/*-----------------------------------Main Container---------------------------------*/
+/* -----------------------------------Main Container--------------------------------- */
 
 .main-navigation {
-    background: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg") 62% 100% no-repeat;
-    background-size: cover;
-    background-position: center bottom;
-    height: 100%;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    width: 100%;
+  background: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg") 62% 100% no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  height: 100%;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width: 100%;
 }
 
 .nav-container {
-    margin: 145px auto 0 auto;
-    height: 36px;
-    width: 980px;
-    display: flex;
-    align-items: space-evenly;
-    background-color: rgb(84, 84, 84);
-    border-radius: 3px;
+  margin: 145px auto 0 auto;
+  height: 36px;
+  width: 980px;
+  display: flex;
+  background-color: rgb(84, 84, 84);
+  border-radius: 3px;
 }
 
-/*--------------------------------------Navigation------------------------------*/
+/* --------------------------------------Navigation------------------------------ */
 
 .nav-container span {
-    color: white;
-    font-size: 12px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    box-shadow: black solid 2px;
+  color: white;
+  font-size: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
 }
 
 .nav-container a {
-    background: linear-gradient(#b3b3b3, #797979 50%, #5f5f5f 50%, #757575);
-    width: 12.5%;
-    height: 36px;
-    border-radius: 1px;
-    margin: 0 0.5px 0 0.5px;
-    text-align: center;
-    padding-top: 7px;
-    text-decoration: none;
+  background: linear-gradient(#b3b3b3, #797979 50%, #5f5f5f 50%, #757575);
+  width: 12.5%;
+  height: 36px;
+  border-radius: 1px;
+  margin: 0 0.5px 0 0.5px;
+  text-align: center;
+  padding-top: 7px;
+  text-decoration: none;
 }
 
 .nav-link img {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .input-container {
-    background: linear-gradient(#b3b3b3, #797979 50%, #5f5f5f 50%, #757575);
-    width: 136px;
-    height: 36px;
-    margin: 0 0 0 0.5px;
-    text-align: center;
-    padding-top: 7px;
-    border-radius: 1px;
+  background: linear-gradient(#b3b3b3, #797979 50%, #5f5f5f 50%, #757575);
+  width: 136px;
+  height: 36px;
+  margin: 0 0 0 0.5px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 1px;
 }
 
 .nav-container input {
-    width: 75%;
-    border-radius: 10px;
-    background: linear-gradient(gray 50%, rgb(110, 110, 110) 50%);
-    background-image: url(./images/icons8-busqueda-24.png);
-    background-repeat: no-repeat;
-    background-size: 14px;
-    background-position: 5px center;
+  width: 75%;
+  border-radius: 10px;
+  background: linear-gradient(gray 50%, rgb(110, 110, 110) 50%);
+  background-image: url(./images/icons8-busqueda-24.png);
+  background-repeat: no-repeat;
+  background-size: 14px;
+  background-position: 5px center;
 }
 
-/*---------------------------------Main Text------------------------------*/
+/* ---------------------------------Main Text------------------------------ */
 
 .text-container {
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 40px 0 50px 0;
-    text-align: center;
-    align-items: baseline;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 0 50px 0;
+  text-align: center;
+  align-items: baseline;
 }
 
 .text-container a {
-    text-decoration: none;
-    color: white;
-    width: 100%;
+  text-decoration: none;
+  color: white;
+  width: 100%;
 }
 
 .text-container h1 {
-    font-size: 3em;
-    margin: 1rem 30%;
-    font-weight: 100;
+  font-size: 3em;
+  margin: 1rem 30%;
+  font-weight: 100;
 }
+
 .text-container h2 {
-    font-size: 1.5em;
-    margin: 1rem 22%;
-    font-weight: 300;
-    line-height: 3rem;
+  font-size: 1.5em;
+  margin: 1rem 22%;
+  font-weight: 300;
+  line-height: 3rem;
 }
+
 .text-container h3 {
-    font-weight: 300;
-    font-size: 1.5em;
-    padding: 0 0 10px 0;
-    text-align: center;
+  font-weight: 300;
+  font-size: 1.5em;
+  padding: 0 0 10px 0;
+  text-align: center;
 }
 
 .text-container-play {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 980px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 980px;
 }
+
 .text-container-play a {
-    margin: 0;
-    padding-left: 10px;
-    width: fit-content;
+  margin: 0;
+  padding-left: 10px;
+  width: fit-content;
 }
 
 .text-container img {
-    width: 25px;
-    height: 25px;
+  width: 25px;
+  height: 25px;
 }
 
-/*--------------------------------------------Promo Modules--------------------------------*/
+/* --------------------------------------------Promo Modules-------------------------------- */
 
 .modules-container-1 {
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    background: url("./images/promo_iphone5s.jpg") 100% no-repeat;
-    background-size: cover;
-    background-position: center bottom;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background: url("./images/promo_iphone5s.jpg") 100% no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 .modules-container-2 {
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    background: url("./images/promo_iphone5c.jpg") 100% no-repeat;
-    background-size: cover;
-    background-position: center bottom;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background: url("./images/promo_iphone5c.jpg") 100% no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 .modules-container-3 {
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    background: url("./images/promo_30_years.jpg") 100% no-repeat;
-    background-size: cover;
-    background-position: center bottom;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background: url("./images/promo_30_years.jpg") 100% no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 .modules-container-4 {
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    background: url("./images/promo_supplier_responsibility.jpg") 100% no-repeat;
-    background-size: cover;
-    background-position: center bottom;
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 3;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background: url("./images/promo_supplier_responsibility.jpg") 100% no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
-/*----------------------------Footer---------------------*/
+.modules-container-1 a,
+.modules-container-2 a,
+.modules-container-3 a,
+.modules-container-4 a {
+    width: 100%;
+    height: 100%;
+}
+
+/* ----------------------------Footer--------------------- */
 .footer {
-    display: flex;
-    height: auto;
-    max-width: 1440px;
+  display: flex;
+  height: auto;
+  max-width: 1440px;
 }
 
 .footer-nav {
-    padding: 2rem;
-    margin-left: 0;
-    font-size: 16px;
+  padding: 2rem;
+  margin-left: 0;
+  font-size: 16px;
 }
 
 .footer-data {
-    padding: 2rem;
-    text-align: start;
-    font-size: 10px;
-    color: gray;
-    line-height: 20px;
-    margin-right: 0;
+  padding: 2rem;
+  text-align: start;
+  font-size: 10px;
+  color: gray;
+  line-height: 20px;
+  margin-right: 0;
 }
 
 .footer-data a {
-    color: #0088CC;
-    text-decoration: none;
+  color: #08c;
+  text-decoration: none;
 }
 
 .footer-nav li {
-    font-size: 10px;
-    display: inline-block;
+  font-size: 10px;
+  display: inline-block;
 }
 
 .footer-nav a {
-    text-decoration: none;
-    color: #0088CC;
-    padding: 0 5px 0 5px;
+  text-decoration: none;
+  color: #08c;
+  padding: 0 5px 0 5px;
 }
 
 .footer-nav img {
-    width: 11px;
-    height: 11px;
+  width: 11px;
+  height: 11px;
 }
 
-/*------------------------------------------Hovers & Clicks--------------------------*/
+/* ------------------------------------------Hovers & Clicks-------------------------- */
 
 .nav-container a:hover {
-    background: linear-gradient(rgb(59, 59, 59) 50%, rgb(32, 32, 32) 50%);
+  background: linear-gradient(rgb(59, 59, 59) 50%, rgb(32, 32, 32) 50%);
 }
 
 .nav-container a:active {
-    box-shadow: inset -3px 0px 3px 1px gray;
+  box-shadow: inset -3px 0 3px 1px gray;
 }
 
 .input-container:focus {
-    width: 200px;
+  width: 200px;
 }
 
 .nav-container input:focus {
-    background: white;
-    width: 90%;
-    border: none;
-    border-radius: 10px;
-    outline: none;
-    transition: all 0.3s ease-in-out;
-    color: gray;
+  background: white;
+  width: 90%;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  color: gray;
 }
 
 .text-container-play a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
