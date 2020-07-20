@@ -11,8 +11,8 @@
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: 73% 27%;
     width: 100%;
-    max-width: 1240px;
-    height: 828px;
+    max-width: 1440px;
+    min-height: 858px;
     gap: 2px;
 }
 
@@ -84,6 +84,10 @@
     width: 75%;
     border-radius: 10px;
     background: linear-gradient(gray 50%, rgb(110, 110, 110) 50%);
+    background-image: url(./images/icons8-busqueda-24.png);
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position: 5px center;
 }
 
 .input-container:focus {
@@ -106,6 +110,7 @@
     margin: 0 auto;
     padding: 40px 0 50px 0;
     text-align: center;
+    align-items: baseline;
 }
 
 .text-container a {
@@ -128,7 +133,29 @@
 .text-container h3 {
     font-weight: 300;
     font-size: 20px;
-    padding: 10px;
+    padding: 0 0 10px 0;
+    text-align: center;
+}
+
+.text-container-play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 980px;
+}
+.text-container-play a {
+    margin: 0;
+    padding-left: 10px;
+    width: fit-content;
+}
+
+.text-container img {
+    width: 25px;
+    height: 25px;
+}
+
+.text-container-play a:hover {
+    text-decoration: underline;
 }
 
 .modules-container-1 {
@@ -183,18 +210,22 @@
 .footer {
     display: flex;
     height: auto;
+    max-width: 1440px;
 }
 
 .footer-nav {
     padding: 2rem;
+    margin-left: 0;
+    font-size: 16px;
 }
 
 .footer-data {
     padding: 2rem;
-    text-align: center;
+    text-align: start;
     font-size: 10px;
     color: gray;
     line-height: 20px;
+    margin-right: 0;
 }
 
 .footer-data a {
