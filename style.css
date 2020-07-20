@@ -1,3 +1,4 @@
+/*-------------------------------General Styles----------------------------*/
 *{
     margin: 0 auto;
     -webkit-box-sizing: border-box;
@@ -11,10 +12,12 @@
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: 73% 27%;
     width: 100%;
-    max-width: 1440px;
+    min-width: 1360px;
     min-height: 858px;
     gap: 2px;
 }
+
+/*-----------------------------------Main Container---------------------------------*/
 
 .main-navigation {
     background: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg") 62% 100% no-repeat;
@@ -38,17 +41,14 @@
     border-radius: 3px;
 }
 
+/*--------------------------------------Navigation------------------------------*/
+
 .nav-container span {
     color: white;
     font-size: 12px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     box-shadow: black solid 2px;
-}
-
-.nav-link img {
-    width: 20px;
-    height: 20px;
 }
 
 .nav-container a {
@@ -62,12 +62,9 @@
     text-decoration: none;
 }
 
-.nav-container a:hover {
-    background: linear-gradient(rgb(59, 59, 59) 50%, rgb(32, 32, 32) 50%);
-}
-
-.nav-container a:active {
-    box-shadow: inset -3px 0px 3px 1px gray;
+.nav-link img {
+    width: 20px;
+    height: 20px;
 }
 
 .input-container {
@@ -90,19 +87,7 @@
     background-position: 5px center;
 }
 
-.input-container:focus {
-    width: 200px;
-}
-
-.nav-container input:focus {
-    background: white;
-    width: 90%;
-    border: none;
-    border-radius: 10px;
-    outline: none;
-    transition: all 0.3s ease-in-out;
-    color: gray;
-}
+/*---------------------------------Main Text------------------------------*/
 
 .text-container {
     width: 100%;
@@ -120,19 +105,19 @@
 }
 
 .text-container h1 {
-    font-size: 55px;
+    font-size: 3em;
     margin: 1rem 30%;
     font-weight: 100;
 }
 .text-container h2 {
-    font-size: 30px;
+    font-size: 1.5em;
     margin: 1rem 22%;
     font-weight: 300;
     line-height: 3rem;
 }
 .text-container h3 {
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1.5em;
     padding: 0 0 10px 0;
     text-align: center;
 }
@@ -154,11 +139,10 @@
     height: 25px;
 }
 
-.text-container-play a:hover {
-    text-decoration: underline;
-}
+/*--------------------------------------------Promo Modules--------------------------------*/
 
 .modules-container-1 {
+    margin: 0;
     height: 100%;
     width: 100%;
     background: url("./images/promo_iphone5s.jpg") 100% no-repeat;
@@ -171,6 +155,7 @@
 }
 
 .modules-container-2 {
+    margin: 0;
     height: 100%;
     width: 100%;
     background: url("./images/promo_iphone5c.jpg") 100% no-repeat;
@@ -183,6 +168,7 @@
 }
 
 .modules-container-3 {
+    margin: 0;
     height: 100%;
     width: 100%;
     background: url("./images/promo_30_years.jpg") 100% no-repeat;
@@ -195,6 +181,7 @@
 }
 
 .modules-container-4 {
+    margin: 0;
     height: 100%;
     width: 100%;
     background: url("./images/promo_supplier_responsibility.jpg") 100% no-repeat;
@@ -235,12 +222,44 @@
 
 .footer-nav li {
     font-size: 10px;
-    display: inline;
-    text-align: center;
+    display: inline-block;
 }
 
 .footer-nav a {
     text-decoration: none;
     color: #0088CC;
     padding: 0 5px 0 5px;
+}
+
+.footer-nav img {
+    width: 11px;
+    height: 11px;
+}
+
+/*------------------------------------------Hovers & Clicks--------------------------*/
+
+.nav-container a:hover {
+    background: linear-gradient(rgb(59, 59, 59) 50%, rgb(32, 32, 32) 50%);
+}
+
+.nav-container a:active {
+    box-shadow: inset -3px 0px 3px 1px gray;
+}
+
+.input-container:focus {
+    width: 200px;
+}
+
+.nav-container input:focus {
+    background: white;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    color: gray;
+}
+
+.text-container-play a:hover {
+    text-decoration: underline;
 }
