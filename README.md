@@ -1,21 +1,23 @@
-# Old Apple page-project
+#  🧐 Old Apple page-project
 
-> This is the third collaborative project from Microverse program, It's a mock-up of a The New York Times page, it's built on HTML and CSS3 languages.
+> This is the fourth collaborative project from Microverse program, It's a mock-up of an Old Apple page, it's built on HTML and CSS3 languages.
 
-![screenshot](./graphics/screen-shot.JPG)
+![screenshot](./images/screen-shot.jpg)
 
 
-## Built With
+## 🔧 Built With
 
-- HTML and CSS3
+- HTML and CSS3.
 - Using background and gradients.
+- Using StyleLinters.
+- W3 HTML Validation Service.
 
-## Live Demo
+## 🔴 Live Demo
 
-[Live Demo Link](https://diazgio.github.io/NYT-project/.)
+[Live Demo Link](https://rawcdn.githack.com/diazgio/Old-Apple-Page-project/tree/feature-branch)
 
 
-## Getting Started
+## 🛠 Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
@@ -23,7 +25,7 @@ To get a local copy up and running follow these simple example steps.
 - Press the "Code" button and get the repo link.
 - Clone it using git.
 
-## Authors
+## ✒️ Authors
 
 👤 **Jurgen Clausen**
 
