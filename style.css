@@ -194,6 +194,14 @@
   grid-row-end: 3;
 }
 
+.modules-container-1 a,
+.modules-container-2 a,
+.modules-container-3 a,
+.modules-container-4 a {
+    width: 100%;
+    height: 100%;
+}
+
 /* ----------------------------Footer--------------------- */
 .footer {
   display: flex;
