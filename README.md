@@ -2,7 +2,7 @@
 
 > This is the fourth collaborative project from Microverse program, It's a mock-up of an Old Apple page, it's built on HTML and CSS3 languages.
 
-![screenshot](./images/screen-shot.jpg)
+![screenshot](./images/screen-shoot.jpg)
 
 
 ## 🔧 Built With
